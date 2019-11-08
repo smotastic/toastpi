@@ -1,8 +1,14 @@
 var express = require('express');
 var app = express();
 
-app.get('/de/random', function (req, res) {
-    res.send({ toast: "hallos" });
+const toasts = require('./toasts');
+
+app.get('/', function (req, res) {
+    res.send(toasts.all);
+})
+
+app.get('/random', function (req, res) {
+    res.send(toasts.random());
 })
 
 app.listen(process.env.PORT);
