@@ -19,10 +19,10 @@
   "homepage": "https://github.com/smotastic/toastpi#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4"
   },
   "devDependencies": {
-    "eslint": "^6.6.0",
-    "nodemon": "^1.19.4"
+    "eslint": "^6.6.0"
   }
 }
