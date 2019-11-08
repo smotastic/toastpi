@@ -4,6 +4,7 @@
   "description": "Toast API made with Love and Express",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon -r dotenv/config index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/smotastic/toastpi/issues"
   },
-  "homepage": "https://github.com/smotastic/toastpi#readme"
+  "homepage": "https://github.com/smotastic/toastpi#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "nodemon": "^1.19.4"
+  }
 }
